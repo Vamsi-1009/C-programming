@@ -27,7 +27,7 @@ int main()
     counter = 2;
     square = 1;
     printf("The squares upto %i are %i",count, square);
-    while (counter <= count)
+    while (square < count - 1)
     {
         square = counter * counter;
         printf(", %i", square);
