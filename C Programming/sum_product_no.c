@@ -52,7 +52,7 @@ int main()
             if ((count + counter) == sum)
             {
                printf("The two numbers are %i and %i.\n", count, counter);
-               return 0;
+               goto EXIT;
             }
          }
          counter = counter + 1;
@@ -61,5 +61,6 @@ int main()
    }
    printf("We can't compute sum and product values.");
 
+   EXIT:
    return 0;
 }
