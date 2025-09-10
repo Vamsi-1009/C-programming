@@ -25,7 +25,7 @@ int main()
     scanf("%i", &count2);
     
 
-    char compare[15] = "is bigger than";
+    char compare[] = "is bigger than";
     if (count1 > count2)
     {
         printf("%i %s %i", count1, compare, count2);
