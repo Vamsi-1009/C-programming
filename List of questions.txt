@@ -1,0 +1,25 @@
+
+
+List of Questions:
+
+
+1. Sum of 2 numbers.
+2. product of 3 numbers.
+3. print 'N' natural numbers.
+4. 'N' Even numbers upto N.
+5. 'N' odd numbers upto N.
+6. first 'N' Even numbers.
+7. first 'N' Odd numbers.
+8. Sum of N'' natural numbers.
+9. N multiples of 7.
+10. Multipulation table of a given number.
+11. Multiplication table Book.
+12. Print 1, 4, 9, 16, --- upto N.
+13. print 1,4,9, 16, --- first N.
+14. To Calculate N power N.
+15. print 1,4,27,- upto N.
+16. Factorial of a
+17. check whether a number is prime or not.
+18. Comparison of Two numbers.
+19. Sum of 2 numbers is 20 & thier product find the numbers.
+20. Maximum of three numbers.
