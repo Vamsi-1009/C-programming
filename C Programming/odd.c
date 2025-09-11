@@ -23,7 +23,7 @@ int main()
 
     printf("How many odd numbers do you want to print? ");
     scanf("%i", &count);
-    printf("The first %i even numbers are ", count);
+    printf("The first %i even numbers are: ", count);
 
     counter = 0;
     oddcounter = 1;
