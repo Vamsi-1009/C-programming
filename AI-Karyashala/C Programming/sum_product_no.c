@@ -1,28 +1,28 @@
-/*step1: start
-step2: print "Enter the value of sum: "
-step3: read Sum
-step4: print " Enter the value of product: "
-step5: read Product
-step6: Table = 20
-step7: Limit = 10
-step8: Result = 0
-step9: Count = 1
-step10: Counter = 0
-step11: if Counter <= Limit
+/*step-1: start
+step-2: print "Enter the value of sum: "
+step-3: read Sum
+step-4: print " Enter the value of product: "
+step-5: read Product
+step-6: Table = 20
+step-7: Limit = 10
+step-8: Result = 0
+step-9: Count = 1
+step-10: Counter = 0
+step-11: if Counter <= Limit
            Counter = Counter + 1
            Result = Count * Counter
-           if Result = Product
-              goto step13
-           goto step11
-step12: if Count <= Table
-           Count = Count + 1
-           goto step10
-step13: if (Count + Counter) = Sum
+           if Result == Product:
+             goto step-12
+           goto step-11
+step-12: if (Count + Counter) == Sum
            print "The two numbers are " + Count + " and " + Counter + "."
-           goto step15
-        goto step12
-step14: print "We cant compute sum and product values."
-step15: stop*/
+           goto step-15
+           goto step-13
+step-13: if Count <= Table
+           Count = Count + 1
+           goto step-10
+step-14: print "We cant compute sum and product values."
+step-15: stop*/
 
 #include<stdio.h>
 
