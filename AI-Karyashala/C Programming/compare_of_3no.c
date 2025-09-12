@@ -1,18 +1,19 @@
-/*step1: start
-step2: print "To compae three numbers.\n"
-step3: print "Enter the first number: "
-step4: read Num1
-step5: print "Enter the second number: "
-step6: read Num2
-step7: print "Enter the third number: "
-step8: read Num3
-step9: Greatest = Num1
-step10: if Num2 > Greatest
-          Greatest = Num2
-step11: if Num3 > Greatest
-           Greatest = Num3
-step12: print "The bigger number of " + Num1 + ", " + Num2 + " and " + Num3 + " is " + Greatest + "."
-step13: stop*/
+/*step-1: start
+step-2: print "To compare three numbers.\n"
+step-3: print "Enter the first number: "
+step-4: read num1
+step-5: print "Enter the second number: "
+step-6: read num2
+step-7: print "Enter the third number: "
+step-8: read num3
+step-9: greatest = num1
+step-10: if num2 > greatest
+           greatest = num2
+step-11: if num3 > greatest
+           greatest = num3
+step-12: print "The bigger number of " + num1 + ", " + num2 + " and " + num3 + " is " + greatest + "."
+step-13: stop
+*/
 
 #include<stdio.h>
 
