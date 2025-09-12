@@ -1,20 +1,21 @@
-/*step1: start
-step2: print "The table book."
-step3: Table = 1
-step4: Limit = 20
-step5: Count = 20
-step6: Counter = 1
-step7: print "The " + Table + " table is:\n"
-step8: TableRow = Table * Counter
-step9: TableColumn = Table + " x " + Counter + " = " + TableRow + "\n"
-step10: if Counter <= Count
-           print TableColumn
-           Counter = Counter+1
-           goto step8
-step11:  Table = Table+1
-step12:  if Table <= Limit
-            goto step6
-step11: stop
+/*
+step-1: start
+step-2: print "The table book."
+step-3: table = 1
+step-4: limit = 20
+step-5: count = 20
+step-6: counter = 1
+step-7: print "The " + table + " table is:\n"
+step-8: tablerow = table * counter
+step-9: tablecolumn = table + " x " + counter + " = " + tablerow + "\n"
+step-10: if counter <= count
+           print tablecolumn
+           counter = counter+1
+           goto step-8
+step-11:  table = table+1
+step-12:  if table <= imit
+            goto step-6
+step-13: stop
 */
 
 #include <stdio.h>
