@@ -1,15 +1,16 @@
-/*step1: start
-step2: print "The multiplication table of 7."
-step3: read Count
-step4: Counter = 1
-step5: print "The first " + Count + "table of 7 is:/n"
-step6: Table = 7 * Counter
-step7: TableRow = 7 + " x " + Counter + " = " + Table + "/n"
-step8: if Counter <= Count
-          print TableRow
-          Counter = Counter + 1
-          goto step6
-step9: stop
+/*
+step-1: start
+step-2: print "The multiplication table of 7.\n"
+step-3: read count
+step-4: counter = 1
+step-5: print "The first " + count + "table of 7 is:\n"
+step-6: table = 7 * counter
+step-7: tablerow = 7 + " x " + counter + " = " + table + "\n"
+step-8: if counter <= count
+          print tablerow
+          counter = counter + 1
+          goto step-6
+step-9: stop
 */
 
 #include<stdio.h>
