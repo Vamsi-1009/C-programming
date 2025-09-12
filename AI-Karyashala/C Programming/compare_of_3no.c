@@ -1,4 +1,5 @@
-/*step-1: start
+/*
+step-1: start
 step-2: print "To compare three numbers.\n"
 step-3: print "Enter the first number: "
 step-4: read num1
