@@ -1,18 +1,20 @@
-/*step1: start
-step2: print "Enter the number to check weather it is a prime or not: "
-step3: read Count
-step4: Counter = 2
-step5: if Count <= 1
-          print Count + " is not a prime number"
-          goto step 8
-step6: if Counter <= Count
-          if (Count % Counter) = 0
-	     print Count + " is not a prime number"
-	    goto step 8
-	  Counter = Counter + 1
-	  goto step 6
-step7: print Count + " is a prime number"
-step8: stop*/
+/*
+step-1: start
+step-2: print "Enter the number to check whether it is a prime or not:"
+step-3: read count
+step-4: counter = 2
+step-5: if count <= 1
+          print count + " is not a prime number"
+          goto step-8
+step-6: if counter < count
+          if (count % counter) == 0:
+            print count + " is not a prime number"
+            goto step-8
+          counter = counter + 1
+          goto step-6
+step-7: print count + " is a prime number"
+step-8: stop
+*/
 
 #include<stdio.h>
 
