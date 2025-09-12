@@ -1,23 +1,29 @@
-/*step1: Start
- print "Enter the number to check weather it is a prime or not: "
-step2: Print "Enter a number:"
-step3: Read Count
-step4: Set Multiply = 1
-step5: Set Result = 0
-step6: If Multiply <= Count 
-step7: Set Counter = 1
-step8: If Counter <= Count 
-step9: If Multiply * Counter = Count 
-          Result = Result + 1
-          Counter = Counter + 1 
-          goto step8
-step10: Multiply = Multiply + 1 
-        goto step6
-step11: If Result = 2 
-           Print "Prime"
-           goto step13
-step12: Print "Not Prime"
-step13: Stop*/
+/*
+step-1: start
+step-2: print "Enter a number to check whether it is prime or not: "
+step-3: read Count
+step-4: multiply = 1
+step-5: result = 0
+step-6: if multiply > count
+          goto Step 12
+step-7: counter = 1
+step-8: if counter > count
+          goto Step 11
+step-9: if multiply * counter == count
+          result = result + 1
+step-10: counter = counter + 1
+step-11: if counter <= count
+           goto step-9
+step-12: multiply = multiply + 1
+step-13: if multiply <= count
+           goto step-7
+step-14: if result == 2
+           print "Prime"
+           goto step-16
+step-15: if result != 2
+           print "Not Prime"
+step-16: stop
+*/
 
 #include<stdio.h>
 
