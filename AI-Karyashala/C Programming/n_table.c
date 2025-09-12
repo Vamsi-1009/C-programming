@@ -1,17 +1,17 @@
 /*
-step1: start
-step2: print "Which multiplication table you want to print? "
-step3: read Table
-step4: Count = 20
-step5: Counter = 1
-step6: print "The first " + Count + " table of " + Table + " is:\n"
-step7: TableRow = Table * Counter
-step8: TableColumn = Table + " x " + Counter + " = " + TableRow + "\n"
-step9: if Counter <= Count
-          print TableColumn
-          Counter = Counter + 1
-          goto step6
-step10: stop
+step-1: start
+step-2: print "Which multiplication table you want to print? "
+step-3: read table
+step-4: count = 20
+step-5: counter = 1
+step-6: print "The first " + count + " table of " + table + " is:\n"
+step-7: tablerow = table * counter
+step-8: tablecolumn = table + " x " + counter + " = " + tablerow + "\n"
+step-9: if counter <= count
+          print tablecolumn
+          counter = counter + 1
+          goto step-7
+step-10: stop
 */
 
 # include<stdio.h>
