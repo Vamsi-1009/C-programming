@@ -1,15 +1,16 @@
-/*step1: start    
-step2: print "To compare two numbers.\n"
-step3: print "Enter the first: "
-step4: read Count1
-step5: print "Enter the second number: "
-step6: read Count2
-step7: Compare = " is bigger than "
-step8: if Count1 > Count2
-          print Count1 + " " + Compare + " " + Count2
-step9: if Count1 < Count2
-          print Count2 + " " + Compare + " " + Count1
-step10:stop
+/*
+step-1: start    
+step-2: print "To compare two numbers.\n"
+step-3: print "Enter the first: "
+step-4: read count1
+step-5: print "Enter the second number: "
+step-6: read count2
+step-7: compare = " is bigger than "
+step-8: if count1 > count2
+          print count1 + " " + compare + " " + count2
+step-9: if count1 < count2
+          print count2 + " " + compare + " " + count1
+step-10:stop
 */
 
 #include<stdio.h>
