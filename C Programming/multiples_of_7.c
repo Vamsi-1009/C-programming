@@ -1,15 +1,15 @@
-/*Step1: Start
-Step2: Print "How many multiples of 7 you want to print? "
-Step3: Read Count
-Step4: Counter = 1
-Step5: Print "The first " + Count + " multiples of 7 are: "
-Step6: Multiples = 7 * Counter
-Step7: If Counter < Count
-          Print Multiples + ", "
-          Counter = Counter + 1
-          Goto Step6
-Step8: Print Multiples + "."
-Step9: Stop
+/*step-1: start
+step-2: print "How many multiples of 7 you want to print? "
+step-3: read count
+step-4: counter = 1
+step-5: print "The first " + count + " multiples of 7 are: "
+step-6: multiples = 7 * counter
+step-7: if counter < count:
+          print multiples + ", "
+          counter = counter + 1
+          goto step-6
+step-8: print multiples + "."
+step-9: stop
 */
 
 #include<stdio.h>
