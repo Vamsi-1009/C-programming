@@ -1,21 +1,22 @@
-/*Step1: Start
-Step2: Print "To compute N power N."
-Step3: Print "Enter the limit:"
-Step4: Read Limit
-Step5: Count = 2
-step6: print "The n power n series upto " + Limit + " is " + (Count-1)
-Step7: Multiply = 1
-Step8: Counter = 1
-Step9: if Counter <= Count
+/*
+step-1: start
+step-2: print "To compute N power N."
+step-3: print "Enter the limit:"
+step-4: read Limit
+step-5: Count = 2
+step-6: print "The n power n series upto " + Limit + " is " + (Count-1)
+step-7: Multiply = 1
+step-8: Counter = 1
+step-9: if Counter <= Count
           Multiply = Multiply * Count
           Counter = Counter + 1
-          goto Step9
-Step10: if Multiply <= Limit
-          Print ", " + Multiply
+          goto step-9
+step-10: if Multiply <= Limit
+          print ", " + Multiply
           Count = Count + 1
-          goto Step7
-step11: print "."
-Step12: Stop*/
+          goto step-7
+step-11: print "."
+step-12: Stop*/
 
 #include<stdio.h>
 
