@@ -1,17 +1,18 @@
-/*step1: start
-step2: print "How many even numbers do you want to print? "
-step3: read Count
-step4: Counter = 1
-step5: Even Counter = 0
-step6: print "The first " + Count + " even numbers are" +
-step7: print EvenCounter
-step8: if Counter < Count
-          EvenCounter = EvenCounter+2
-          print ", " + EvenCounter
-          Counter = Counter+1
-          goto step8
-step9: print "."
-step10: stop
+/*
+step-1: start
+step-2: print "How many even numbers do you want to print? "
+step-3: read count
+step-4: counter = 1
+step-5: evencounter = 0
+step-6: print "The first " + count + " even numbers are"
+step-7: print evencounter
+step-8: if counter < count
+          evencounter = evencounter+2
+          print ", " + evencounter
+          counter = counter+1
+          goto step-8
+step-9: print "."
+step-10: stop
 */
 
 #include <stdio.h>
