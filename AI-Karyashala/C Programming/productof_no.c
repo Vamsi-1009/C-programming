@@ -1,14 +1,14 @@
 /*
 step1: start
-step2: print "to multiply three numbers."
+step2: print "to multiply three numbers.\n"
 step3: print "enter the first number: "
-step4: read Num1
+step4: read number1
 step5: print "enter the second number: "
-step6: read Num2
+step6: read number2
 step7: print "enter the third number: "
-step8: read Num3
-step9: Product = Num1 * Num2 * Num 3
-step10: print "the product of  " + Num1 + ", " + Num2 + " and " + Num3 + " is " + Product + "."
+step8: read number3
+step9: product = number1 * number2 * number3
+step10: print "the product of  " + number1 + ", " + number2 + " and " + number3 + " is " + product + "."
 step11: stop
 */
 
