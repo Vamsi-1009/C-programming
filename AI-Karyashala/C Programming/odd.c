@@ -1,17 +1,18 @@
-/*step1: start
-step2: print "How many odd numbers do you want to print? "
-step3: read Count
-step4: Counter = 1
-step5: OddCounter = 0
-step6: print "The first " + Count + " even numbers are" +
-step7: print OddCounter
-step8: if Counter < Count
-          OddCounter = OddCounter+2
-          print ", " + OddCounter
-          Counter = Counter+1
-          goto step8
-step9: print "."
-step10: stop
+/*
+step-1: start
+step-2: print "How many odd numbers do you want to print? "
+step-3: read count
+step-4: counter = 1
+step-5: oddcounter = 0
+step-6: print "The first " + count + " even numbers are" +
+step-7: print oddcounter
+step-8: if counter < count
+          oddcounter = oddcounter+2
+          print ", " + oddcounter
+          counter = counter+1
+          goto step-8
+step-9: print "."
+step-10: stop
 */
 
 #include <stdio.h>
