@@ -1,16 +1,18 @@
-/*step1: start
-step2: print "To compute N power N./n"
-step3: print "Enter N: "
-step4: read Count
-step5: Counter = 2
-step6: Multiply = Count * Count
-step7: print Count + " multiplied " + Count + "times " + " is "
-step8: if Count > Counter
-          Multiply = Multiply * Count
-          Counter = Counter + 1
-          goto step8
-step9: print Multiply + "."
-step10:stop*/
+/*
+step-1: start
+step-2: print "To compute N power N./n"
+step-3: print "Enter N: "
+step-4: read count
+step-5: counter = 2
+step-6: multiply = count * count
+step-7: print count + " multiplied " + count + "times " + " is "
+step-8: if count > counter
+          multiply = multiply * count
+          counter = counter + 1
+          goto step-8
+step-9: print multiply + "."
+step-10:stop
+*/
 
 #include<stdio.h>
 
