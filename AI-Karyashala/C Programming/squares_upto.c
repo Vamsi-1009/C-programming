@@ -1,17 +1,17 @@
 /*
-step1: start
-step2: print "Upto which number you want to print squares? "
-step3: read Count
-step4: Counter = 2
-step5: Square = 1
-step6: print "The squares upto " + Count + " are " + Square 
-step7: Square = Counter * Counter
-step8: if Count >= Square
-          print ", " + Square
-          Counter = Counter + 1
-          goto step7
-step9: print "."
-step10: stop
+step-1: start
+step-2: print "Upto which number you want to print squares? "
+step-3: read count
+step-4: counter = 2
+step-5: square = 1
+step-6: print "The squares upto " + count + " are " + square 
+step-7: square = counter * counter
+step-8: if count >= square
+          print ", " + square
+          counter = counter + 1
+          goto step-7
+step-9: print "."
+step-10: stop
 */
 
 #include<stdio.h>
