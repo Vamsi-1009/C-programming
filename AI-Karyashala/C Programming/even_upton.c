@@ -1,13 +1,13 @@
 /*step1: start
 step2: print "Upto how many even numbers do you want to print? "
-step3: read Count
-step4: Counter = 0
-step5: print "The even numbers upto " + Count + " are "
-step6: print Counter
-step7: if Counter < Count
-          Counter = Counter+2
-          print ", " + Counter
-          goto step7
+step3: read count
+step4: counter = 0
+step5: print "The even numbers upto " + count + " are "
+step6: print counter
+step7: if count-1 > counter:
+          counter = counter+2
+          print ", " + counter
+          goto step-7
 step8: print "."
 step9: stop
 */

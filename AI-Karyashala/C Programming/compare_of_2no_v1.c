@@ -16,23 +16,23 @@ step10:stop
 
 int main()
 {
-    int count1, count2;
+    int num1, num2;
 
     printf("To compare two numbers.\n");
     printf("Enter the first number: ");
-    scanf("%i", &count1);
+    scanf("%i", &num1);
     printf("Enter the second number: ");
-    scanf("%i", &count2);
+    scanf("%i", &num2);
     
 
     char compare[] = "is bigger than";
-    if (count1 > count2)
+    if (num1 > num2)
     {
-        printf("%i %s %i", count1, compare, count2);
+        printf("%i %s %i", num1, compare, num2);
     }
-     if (count1 < count2)
+     if (num1 < num2)
     {
-         printf("%i %s %i", count2, compare, count1);
+         printf("%i %s %i", num2, compare, num1);
     }
 
 

@@ -33,12 +33,12 @@ int main()
     count = 20;
     while (table <= limit)
     {
-        printf("The %i table is:\n", table);
+        printf("\nThe %i table is:\n\n", table);
         counter = 1;
         while (counter <= count)
         {
         tablerow = table * counter;
-        printf("%i x %i = %i\n",table, counter, tablerow);
+        printf("%-2i x %-2i = %-4i \n",table, counter, tablerow);
         counter = counter + 1;
         }
          table = table + 1;

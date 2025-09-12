@@ -14,21 +14,21 @@ step9:stop*/
 
 int main()
 {
-    int count1,count2;
+    int num1,num2;
 
     printf("To compare two numbers.\n");
     printf("Enter the first number: ");
-    scanf("%i", &count1);
+    scanf("%i", &num1);
     printf("Enter the second number: ");
-    scanf("%i", &count2);
+    scanf("%i", &num2);
 
-    if (count1 > count2)
+    if (num1 > num2)
     {
-        printf("%i is bigger than %i", count1,count2);
+        printf("%i is bigger than %i", num1, num2);
     }
-     if (count1 < count2)
+     if (num1 < num2)
     {
-         printf("%i is bigger than %i", count2, count1);
+         printf("%i is bigger than %i", num2, num1);
     }
     
     return 0;
