@@ -1,15 +1,16 @@
-/*step1: start
-step2: print "Enter the number to find the factorial: "
-step3: read Count
-step4: Counter = 1
-step5: Multiply = 1
-step6: print "The factorial of " + Count + " is "
-step7: if Count >= Counter
-          Multiply = Multiply * Counter
-          Counter = Counter + 1
-          goto step7
-step8: print Multiply + "."
-step9:stop*/
+/*
+step-1: start
+step-2: print "Enter the number to find the factorial: "
+step-3: read count
+step-4: counter = 1
+step-5: multiply = 1
+step-6: print "The factorial of " + count + " is "
+step-7: if count >= counter
+          multiply = multiply * counter
+          counter = counter + 1
+          goto step-7
+step-8: print multiply + "."
+step-9:stop*/
 
 
 
